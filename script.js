@@ -149,7 +149,7 @@ document.addEventListener("DOMContentLoaded", function() {
       const formattedParameters = displayParameters(parameters);
       paramDisplay.innerHTML = formattedParameters;
     } else {
-      paramDisplay.innerHTML = "<p>No data stored for this model.</p>";
+      paramDisplay.innerHTML = "<p>There is no factory memory compatibility data for this model.</p>";
     }
   });
 });
